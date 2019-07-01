@@ -21,6 +21,7 @@
         </environment>
     </environments>
 
+    <!-- 配置mapping.xml -->
     <mappers>
         <mapper resource="jdbcbean/ScoreDao.xml"></mapper>
     </mappers>

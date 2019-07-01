@@ -4,6 +4,7 @@ public class KataStringDemo {
 
     static int ka = 0;
 
+
     public static void pigLaatin(String str){
 
         String sts[] = str.split(" ");

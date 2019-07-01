@@ -11,7 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-    $END$
+
     <hr>
     <p>TestRequestMapping</p>
     <a href="/hello.form">hello</a>
@@ -57,7 +57,7 @@
     <hr>
     <br><br><br><br><br><br><br><br><br>
 
-    <form action="/TestRequestParam/testUsers.form">
+    <form action="/TestRequestParam/testUsers.form" >
       用户名1：<input type="text" name="userList[0].userName"><br>
       密码1：<input type="password" name="userList[0].password"><br>
       联系电话1：<input type="text" name="userList[0].tel"><br>

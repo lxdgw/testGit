@@ -11,7 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-    $END$
+
     <hr>
     <p>TestRequestMapping</p>
     <a href="/hello.form">hello</a>

@@ -12,14 +12,9 @@ public class Function {
             res += c+",";
         }
         return res;
-
     }
 
-    public static void main(String[] args){
-        Endpoint.publish("http://localhost:8089/service/function", new Function());
-        System.out.println("Publish Success");
-    }
-//    public String transWords(String words){
+//        public String transWords(String words){
 //        String res = "";
 //        for(char ch : words.toCharArray()){
 //            res += ch+",";
@@ -32,4 +27,9 @@ public class Function {
 //        Endpoint.publish("http://localhost:8089/service/function", new Function());
 //        System.out.println("Publish Success");
 //    }
+
+    public static void main(String[] args){
+        Endpoint.publish("http://localhost:8089/service/function", new Function());
+        System.out.println("Publish Success");
+    }
 }
